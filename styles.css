@@ -1,0 +1,219 @@
+/* Universal Styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+h3 {
+    font-size: 30px;
+}
+.orange-button {
+    background-color: rgb(241,166,56);
+    height: 60px;
+    padding: 1em 1.67em;
+    font-size: inherit;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 35px 14px;
+    color: white;
+}
+
+/* Nav */
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    flex: auto;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-shrink: 1;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    padding: 0px 8px;
+}
+#logo {
+    margin-right: 70px;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+    display: flex;
+    flex-shrink: 2;
+}
+.header-button {
+    background-color: black;
+    border: none;
+    height: 40px;
+    padding: 10px 25px;
+    font-size: inherit;
+    flex-shrink: 1;
+}
+
+/* Hero */
+#hero {
+    background-image: url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80');
+    background-size: cover;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: inherit;
+}
+.hero-text {
+    margin-top: 0px;
+    margin-left: 70px;
+}
+#hero-maintext {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+#hero-subtext {
+    font-size: 25px;
+    width: 700px;
+}
+#strong {
+    font-weight: 500;
+    font-style: italic;
+    font-family: inherit;
+}
+
+/* Main */
+#main {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+h2 {
+    font-size: 3rem;
+    display: block;
+    padding-top: 70px;
+}
+#grid-container {
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    width: 500px;
+    height: 333px;
+    min-width: 200px;
+    min-height: 133px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    justify-content: center;
+    align-items: center;
+}
+#boxing-program {
+    background-image: url('https://images.unsplash.com/photo-1565349478421-5e1abedadbec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+}
+#cardio-program {
+    background-image: url('https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1380&q=80');
+}
+#gymnastics-program {
+    background-image: url('https://images.unsplash.com/photo-1517931524326-bdd55a541177?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+}
+#powerlifting-program {
+    background-image: url('https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+}
+.main-description {
+    font-size: 35px;
+}
+.sub-description {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* About */
+#about {
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-size: 17px;
+}
+#about-description {
+    font-size: 22px;
+    width: 70%;
+}
+
+/* Quote */
+#quote {
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1585681614545-cd8c7b9d92b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto 50px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+#social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    padding: 0px 0px;
+    font-size: 25px;
+}
+.white {
+    color: white;
+}
+.footer-details {
+    font-weight: lighter;
+}
