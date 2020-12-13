@@ -2,6 +2,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    overflow: hidden;
 }
 h3 {
     font-size: 30px;
@@ -216,4 +217,35 @@ div {
 }
 .footer-details {
     font-weight: lighter;
+}
+
+@media (max-width: 930px) {
+    header {
+        flex-flow: row-reverse wrap;
+    }
+    nav a {
+        font-size: 2.5vw;
+        padding: 0px 5px;
+    }
+    #logo {
+        margin: unset;
+        font-size: 5vw;
+    }
+    header > button {
+        display: none;
+    }
+
+    section#hero {
+        align-items: center;
+    }
+    .hero-text {
+        margin: unset;
+        width: 80%;
+        text-align: center;
+    }
+    #hero-subtext {
+        padding: 10% 0px;
+        width: unset;
+    }
+
 }
